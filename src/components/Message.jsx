@@ -5,6 +5,7 @@ import { fetchMessages } from '../redux/message/messageSlice';
 const Message = () => {
   const dispatch = useDispatch();
   const message = useSelector((state) => state.messages);
+  console.log(message);
 
   useEffect(() => {
     dispatch(fetchMessages());
