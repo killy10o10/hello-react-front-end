@@ -5,7 +5,6 @@ import { fetchMessages } from '../redux/message/messageSlice';
 const Message = () => {
   const dispatch = useDispatch();
   const message = useSelector((state) => state.messages);
-  console.log(message);
 
   useEffect(() => {
     dispatch(fetchMessages());
@@ -15,7 +14,7 @@ const Message = () => {
     <>
       <div>
           {message.map((m) => (
-            <p className="text-center animate__animated animate__bounceIn" key={m.id}>{m.greetings}</p>
+            <h3 className="text-center bg-warning animate__animated animate__bounceIn" key={m.id}>{m.greetings}</h3>
           ))}
       </div>
     </>

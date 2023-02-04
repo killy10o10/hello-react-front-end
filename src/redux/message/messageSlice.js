@@ -23,10 +23,14 @@ const messageSlice = createSlice({
 
   extraReducers: {
     [fetchMessages.fulfilled]: (state, action) => {
-      state.status = 'succeeded';
-      state.push(action.payload);
-    },
-  },
+      return [
+        {
+          status: 'succeeded',
+          ...action.payload,
+        }
+      ]
+    }
+  }
 });
 
 export const { addMessage } = messageSlice.actions;
