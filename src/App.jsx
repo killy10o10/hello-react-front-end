@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Refresh to see a new greeting</h1>
+      <h1 className="text-center">Refresh to see a new greeting</h1>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Message />}></Route>

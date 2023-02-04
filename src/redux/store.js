@@ -1,9 +1,14 @@
 /* eslint-disable import/prefer-default-export */
 import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers } from 'redux';
 import messageSlice from './message/messageSlice';
 
-export const store = configureStore({
-  reducer: {
-    messages: messageSlice,
-  },
+const reducer = combineReducers({
+  messages: messageSlice,
 });
+
+const store = configureStore({
+  reducer,
+});
+
+export default store;
