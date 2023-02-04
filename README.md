@@ -1,12 +1,3 @@
-<a name="readme-top"></a>
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://user-images.githubusercontent.com/86767187/216441328-094c8811-72d8-4eab-a218-eae23b84fbc7.svg" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Hello React Rails - Frontend </b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -32,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 FitMeUP <a name="about-project"></a>
+# 📖 Hello Rails React Front- End <a name="about-project"></a>
 
 **Fit me up frontend** is a react-based application that 
 
@@ -88,9 +79,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Book Trainers
-- Create Trainers with specialty
-- See a list of Trainers of different fileds (eg. Yoga, Fitness, Muscle gain💪🏽)
+- Fetch list of random greetings
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,13 +99,13 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/killy10o10/fitmeup.git
+  git clone https://github.com/killy10o10/hello-react-front-end
 ```
 
 change directory to cloned folder
 
 ```
-  cd fitmeup
+  cd hello-react-front-end
 ```
 
 ### Install
@@ -139,7 +128,7 @@ To run the project, execute the following command:
 
 - After running `npm start`, open your browser and enter this address http://localhost:3000/
 
-- Congratulations! your're running **_fitMeUp_**
+- Congratulations! your're running **_hello-react-front-end_**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,10 +149,6 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > These features will be added in future updates. ⬇️⬇️
-
-- [ ] **Appointment Page**
-- [ ] **Trainer list page**
-- [ ] **Add api endpoint for generating trainers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
