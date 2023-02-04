@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -7,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo ](#-live-demo-)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -15,7 +17,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -23,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails React Front- End <a name="about-project"></a>
+# 📖 Hola Rails React <a name="about-project"></a>
 
-**Fit me up frontend** is a react-based application that 
+> This is a demo app that adds React to manage client-side of a Ruby-on-Rails application. The app display a random message to the user whenever they refresh the page from the rails servers using React components.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,17 +38,15 @@
   <summary>Languages</summary>
   <ul>
     <li><a href="https://ruby-lang.org/en">Ruby</a></li>
-    <li><a href="https://javascript.com/">JavaScript</a></li>
+    <li><a href="https://react.org/">React</a></li>
     <li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
     <li><a href="https://www.w3.org/TR/CSS/#css">CSS</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Frameworks</summary>
+  <summary>Framework</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
@@ -71,7 +70,6 @@
 <summary>Test library</summary>
   <ul>
     <li><a href="https://www.rspec.info/">Rspec</a></li>
-    <li><a href="https://jestjs.io/">Jest</a></li>
   </ul>
 </details>
 
@@ -79,7 +77,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Fetch list of random greetings
+- Learn how things work under the hood with rails and react apps
+- generate random greetings
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> - [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,66 +94,61 @@
 
 In order to run this project you need:
 
-- Node.JS
-- Git
-- Broswer to Display
-- IDE to run and edit the code
+- Ruby installed on your computer
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone these repositories to your desired folder:
+
 
 ```
-  git clone https://github.com/killy10o10/hello-react-front-end
+  git clone https://github.com/killy10o10/hello-rails-back-end.git
+  git clone https://github.com/killy10o10/hello-react-front-end.git
 ```
 
-change directory to cloned folder
+change directory to cloned folders in separate terminals
+
+```
+  cd hello-rails-back-end
+```
 
 ```
   cd hello-react-front-end
 ```
 
-### Install
+### Usage
 
-Install project dependecies with:
+To run the project backend, execute the following command:
+
+```
+  rails db:prepare
+  rails db:seed
+  rails s -p 3001
+```
+To run the project front-end, execute the following command:
 
 ```
   npm install
+  npm run dev
 ```
 
--
+- After running `rails s -p 3001`, use the app on `http://localhost:3001/api/v1/messages` in the browser for the `json` part of the app!
 
-### Usage
+- After running `npm run dev` , use the app on `http://127.0.0.1:5173/` in the browser for the `Frontend` part of the app!
 
-To run the project, execute the following command:
-
-```
-  npm start
-```
-
-- After running `npm start`, open your browser and enter this address http://localhost:3000/
-
-- Congratulations! your're running **_hello-react-front-end_**
+- Congratulations! your're running **_hello-react-rails_**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Quami Killy**
 
 - GitHub: [@killy10o10](https://github.com/killy10o10)
 - Twitter: [@Quami_Killy](https://twitter.com/Quami_Killy)
 - LinkedIn: [@Kingsley Okine](https://www.linkedin.com/in/kingsley-okine/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> These features will be added in future updates. ⬇️⬇️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
